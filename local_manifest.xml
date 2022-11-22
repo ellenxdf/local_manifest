@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote
+        name="device"
+        fetch="https://github.com/ArrowOS-Devices/android_device_xiaomi_vayu" />
+
+    <remote
+        name="kernel"
+        fetch="https://github.com/ArrowOS-Devices/android_kernel_xiaomi_vayu" />
+
+    <remote
+        name="vendor"
+        fetch="https://github.com/ArrowOS-Devices/android_vendor_xiaomi_vayu" />
+
+    <remote
+        name="hardware"
+        fetch="https://github.com/ArrowOS-Devices/android_hardware_xiaomi" />
+
+    <!-- Trees -->
+    <project
+        path="android/device/xiaomi/vayu"
+        name="android_device_xiaomi_vayu"
+        remote="device"
+        revision="arrow-13.0"
+        clone-depth="1" />
+    <project
+        path="android/vendor/xiaomi/vayu"
+        name="android_vendor_xiaomi_vayu"
+        remote="vendor"
+        revision="arrow-13.0"
+        clone-depth="1" />
+    <project
+        path="android/kernel/xiaomi/vayu"
+        name="android_kernel_xiaomi_vayu"
+        remote="kernel"
+        revision="arrow-13.0"
+        clone-depth="1" />
+    <project
+        path="android/hardware/xiaomi"
+        name="android_hardware_xiaomi"
+        remote="hardware"
+        revision="arrow-13.0"
+        clone-depth="1" />
+
+</manifest>
