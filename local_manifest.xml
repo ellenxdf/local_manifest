@@ -7,7 +7,7 @@
 
     <remote
         name="kernel"
-        fetch="https://github.com/ArrowOS-Devices/android_kernel_xiaomi_vayu" />
+        fetch="https://github.com/DerpFest-Devices/kernel_xiaomi_vayu" />
 
     <remote
         name="vendor"
@@ -22,25 +22,25 @@
         path="android/device/xiaomi/vayu"
         name="android_device_xiaomi_vayu"
         remote="device"
-        revision="arrow-13.0"
+        revision="arrow-12.1"
         clone-depth="1" />
     <project
         path="android/vendor/xiaomi/vayu"
         name="android_vendor_xiaomi_vayu"
         remote="vendor"
-        revision="arrow-13.0"
+        revision="arrow-12.1"
         clone-depth="1" />
     <project
-        path="android/kernel/xiaomi/vayu"
-        name="android_kernel_xiaomi_vayu"
+        path="kernel/xiaomi/vayu"
+        name="kernel_xiaomi_vayu"
         remote="kernel"
-        revision="arrow-13.0"
+        revision="main"
         clone-depth="1" />
     <project
         path="android/hardware/xiaomi"
         name="android_hardware_xiaomi"
         remote="hardware"
-        revision="arrow-13.0"
+        revision="arrow-12.1"
         clone-depth="1" />
 
 </manifest>
