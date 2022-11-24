@@ -2,32 +2,24 @@
 <manifest>
 
     <remote
-        name="device"
-        fetch="https://github.com/ArrowOS-Devices/android_device_xiaomi_vayu" />
+        name="arrow"
+        fetch="https://github.com/ArrowOS-Devices" />
 
     <remote
         name="kernel"
-        fetch="https://github.com/DerpFest-Devices/kernel_xiaomi_vayu" />
-
-    <remote
-        name="vendor"
-        fetch="https://github.com/ArrowOS-Devices/android_vendor_xiaomi_vayu" />
-
-    <remote
-        name="hardware"
-        fetch="https://github.com/ArrowOS-Devices/android_hardware_xiaomi" />
+        fetch="https://github.com/DerpFest-Devices" />
 
     <!-- Trees -->
     <project
         path="android/device/xiaomi/vayu"
         name="android_device_xiaomi_vayu"
-        remote="device"
+        remote="arrow"
         revision="arrow-12.1"
         clone-depth="1" />
     <project
         path="android/vendor/xiaomi/vayu"
         name="android_vendor_xiaomi_vayu"
-        remote="vendor"
+        remote="arrow"
         revision="arrow-12.1"
         clone-depth="1" />
     <project
@@ -39,7 +31,7 @@
     <project
         path="android/hardware/xiaomi"
         name="android_hardware_xiaomi"
-        remote="hardware"
+        remote="arrow"
         revision="arrow-12.1"
         clone-depth="1" />
 
